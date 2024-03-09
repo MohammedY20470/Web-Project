@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+		<title>Younis Hama</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+			<header id="head">
+			<nav class="mobile-nav">
+				<div id="menu-links">
+					<div class="links"><a href="index.html">Personal Information</a>
+					</div>
+					<div class="links"><a href="acadamic.html">Acadamics</a>
+					</div>
+					<div class="links"><a href="interest.html">Interest</a>
+					</div>
+					<div class="links"><a href="contributions.html">Contributions</a></div>
+					
+					<div class="links"><a href="contact.html">Contact Me</a>
+					</div>
+				</div>
+				<a class="menu-icon" onclick="toggleLinks()">
+					<div>&#9776;</div>
+				</a>
+            </nav>
+				<a href="index.html"><img src="images/Younis-hama.png" alt="Younis Hama's image"></a>
+			
+            <nav class="tablet-desktop">
+				<ul>
+					<li><a href="index.html">Personal Information</a></li>
+					
+					<li><a href="acadamic.html">Acadamics</a></li>
+					
+					<li><a href="interest.html">Interest</a></li>
+					
+					<li><a href="contributions.html">Contributions</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+		
+			</nav>
+		</header>
+			<main>
+                <h1>
+                    Making a Contact
+                </h1>
+                <div class="blocks-of-info">
+                    <p>You can already contact my by my facebook Mesenger, however you can also contact me by Imail for any help that I can provide or just for fun send me the answer to this Physics problem:</p>
+                    <div class="blocks-of-info">
+                        <h3>Physics Problem: Car Acceleration</h3>
+
+                        <p>Initial velocity (vi) = 0 m/s</p>
+                        <p>Time (t) = 5.21 seconds</p>
+                        <p>Distance (d) = 110 m</p>
+                        
+                        <p>Hind the Accelerationof the car</p>
+                        <img src="images/carACC.png"src="a car accelarating and decelarating">
+                    </div>
+
+
+                    <div id="form">
+					<h3>Contact My</h3>
+
+                        <form class="form-grid">
+                            <fieldset>
+                                <legend>Your Information</legend>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" required>
+                            </fieldset>
+                            <fieldset>
+                                <legend>The Mail is for(subject):</legend>				
+                                <select name="subject" id="subject">
+                                    <option>Problems answer</option>
+                                    <option>For Business</option>
+                                    <option>Asking about Education</option>
+                                    <option>Just for Contact</option>
+                                </select>
+                            </fieldset>
+                                <label for="questions">Questions?</label>
+                                <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                            </fieldset>
+                            <input type="submit" id="submit" value="Submit" class="btn">
+                        </form>
+                    </div>
+                </div>
+            </main>
+		</div>
+			<footer>
+				
+				<h3>Email address</h3>
+				<p>My Email address is &nbsp;
+					<a href="mailto:younis20000@gmail.com">younis20000@gmail.com</a>.
+				</p>
+					<a href="https://www.facebook.com/younis79" class="fa fa-facebook" ></a>
+					<a href="" class="fa fa-youtube"></a>
+					<div id="copyW">&copy; Mohammed Younis</div>
+			</footer>
+            <script src="scripts/togglemenu.js"></script>
+    </body>
+</html>
